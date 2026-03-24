@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## Sessao 11 — 2026-03-24
+
+### Refactor
+- knowledge_organizer.py: 460→38 linhas (stub, MCP direto)
+- notion_cleaner.py: 570→48 linhas (stub, MCP direto)
+- Adicionado .claude/settings.local.json ao .gitignore
+
+---
+Coautoria: Lucas + opus | 2026-03-24
+
 ## Sessao 7d — 2026-03-08
 
 ### Cross-Validation Workflow
