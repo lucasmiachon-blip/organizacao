@@ -1,5 +1,15 @@
 # CHANGELOG
 
+## Sessao 12 — 2026-03-24
+
+### Notion
+- Criada database "Concurso Error Log" (18 especialidades, 3 tipos erro, campos Anki+revisao)
+- Criada database "Teaching Log" (feedback +/-, acao corretiva, 7 tags)
+- Ambas em Databases & Components, snapshot atualizado
+
+---
+Coautoria: Lucas + opus | 2026-03-24
+
 ## Sessao 11 — 2026-03-24
 
 ### Refactor

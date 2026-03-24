@@ -1,18 +1,17 @@
 # HANDOFF - Proxima Sessao
 
-> Sessao 11 | 2026-03-24
+> Sessao 12 | 2026-03-24
 
 ## ESTADO ATUAL
 
 Python: 38 arquivos, 0 conflitos. Rules: 7. Skills: 13.
-Refactor completo: knowledge_organizer + notion_cleaner → stubs (MCP direto).
+Notion: Concurso Error Log + Teaching Log criados em Databases & Components.
 
 ## PROXIMO
 
-1. Criar database Notion "Concurso Error Log" (template em teaching-improvement skill)
-2. Criar database Notion "Teaching Log"
-3. Cross-validation Masterpiece (user cola resultado ChatGPT, Claude compara)
-4. Organizar conteudo Masterpiece por consenso
+1. Cross-validation Masterpiece (user cola resultado ChatGPT, Claude compara)
+2. Organizar conteudo Masterpiece por consenso
+3. Popular Error Log com primeiros erros de questoes (quando usuario resolver)
 
 ## PENDENTE
 
