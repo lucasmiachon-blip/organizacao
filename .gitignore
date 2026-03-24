@@ -50,6 +50,7 @@ Thumbs.db
 
 # Claude Code (worktrees sao temporarios)
 .claude/worktrees/
+.claude/settings.local.json
 
 # Cache
 .cache/
