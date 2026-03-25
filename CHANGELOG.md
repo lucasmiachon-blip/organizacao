@@ -2,11 +2,16 @@
 
 ## Sessao 14 — 2026-03-24
 
-### Auditoria Masterpiece
-- Leitura pagina a pagina de todas as 25 paginas do Masterpiece DB
-- Properties (Pilar, Status, Maturidade, Tipo) verificadas: todas corretas
-- Identificados: My Examples quase vazio, 2 [Arquivo] para limpeza
-- Prompt cross-validation gerado para ChatGPT (pendente execucao)
+### Auditoria Masterpiece + Cross-Validation
+- Leitura pagina a pagina de 30+ paginas do Masterpiece DB (busca inicial capped a 25, ampliada)
+- Cross-validation ChatGPT executada: ChatGPT encontrou 3 problemas reais que Claude perdeu
+- ChatGPT errou no ponto principal (8 indices sem Pilar — verificado: todos preenchidos)
+- Ignis Animi: Status corrigido Em construcao → Ativo (concordancia Claude+ChatGPT)
+- Ignis Style v3 [Arquivo]: deletado (supersedido por Diretrizes Claude)
+- Ignis Fire — Mary Oliver [Arquivo]: citacao absorvida no Ignis, pagina deletada
+- Conceitos Garimpados: identificado container drift (205k chars numa sub-page de E-mail)
+- My Examples: mantido como galeria-semente (recomendacao ChatGPT aceita)
+- Confianca pos-cross-validation: 0.82 (ChatGPT) / 0.85 (Claude corrigido)
 
 ### Gmail MCP
 - Descoberto: `@anthropic-ai/google-workspace-mcp` nao existe (ficticio)
