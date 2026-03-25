@@ -37,9 +37,12 @@
   - **IMPORTANTE**: Nao existe API de move — usar criar+copiar+verificar+arquivar
 
 - [ ] **Gmail/Google Workspace MCP** - Emails medicos
-  - Setup: `npx @anthropic-ai/google-workspace-mcp`
-  - Auth: OAuth Google
+  - Setup: `npm install -g @googleworkspace/cli && npx gws auth setup`
+  - MCP: `claude mcp add google-workspace -- npx gws mcp -s gmail,calendar,drive`
+  - Package: `@googleworkspace/cli` (Google oficial, v0.16+ pre-v1.0)
+  - Auth: OAuth Google (browser flow, one-time)
   - Custo: Gratuito
+  - Nota: pacote anterior `@anthropic-ai/google-workspace-mcp` era ficticio
 
 ## RECOMENDADO (Melhora muito a experiencia)
 

@@ -41,11 +41,13 @@
 
     "gmail": {
       "command": "npx",
-      "args": ["-y", "@anthropic-ai/google-workspace-mcp"],
-      "description": "Google Workspace: Gmail + Calendar + Drive. Emails medicos, newsletters, alertas.",
+      "args": ["-y", "@googleworkspace/cli", "mcp", "-s", "gmail,calendar,drive"],
+      "description": "Google Workspace oficial (gws CLI v0.16+). Gmail + Calendar + Drive. Emails medicos, newsletters, alertas.",
       "priority": "critical",
-      "auth": "OAuth Google",
+      "auth": "OAuth Google (npx gws auth setup — one-time browser flow)",
       "cost": "$0",
+      "setup": "npm install -g @googleworkspace/cli && npx gws auth setup",
+      "notes_2026_03": "Pacote anterior (@anthropic-ai/google-workspace-mcp) era ficticio. Corrigido sessao 14.",
       "model_routing": {
         "read_classify": "chatgpt-5.4",
         "summarize": "claude-sonnet-4-6",

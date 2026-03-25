@@ -33,7 +33,9 @@ Model routing: trivial→Ollama($0) | simple→Haiku | medium→Sonnet | complex
 
 ## Skills (sob demanda)
 
-Skills carregadas via `.claude/skills/` quando relevantes:
+Skills carregadas via `.claude/skills/` quando relevantes (25 total):
+
+### Originais (14)
 - `mbe-evidence` → GRADE, CONSORT, STROBE, PRISMA, RoB2, QUADAS...
 - `medical-research` → PubMed, PICO, niveis de evidencia
 - `scientific` → pesquisa cientifica, hipoteses, literature review
@@ -47,6 +49,22 @@ Skills carregadas via `.claude/skills/` quando relevantes:
 - `review` → code review multi-agente + OWASP
 - `ai-monitoring` → tracking modelos, tools, benchmarks
 - `exam-generator` → simulados calibrados por bancas, Anki cards, anti-cue protocol
+
+### K-Dense Scientific (7) — fonte: K-Dense-AI/claude-scientific-skills
+- `clinical-decision-support` → GRADE evidence grading, cohort analysis, CDS documents
+- `clinical-reports` → case reports (CARE), diagnostic reports, trial reports (ICH-E3)
+- `clinicaltrials-database` → ClinicalTrials.gov API v2, search/retrieve trials
+- `pubmed-database` → PubMed REST API, Boolean/MeSH queries, batch processing
+- `biorxiv-database` → bioRxiv preprints, metadata, literature reviews
+- `drugbank-database` → drug info, interactions, targets, pathways, ADMET
+- `citation-management` → Google Scholar, PubMed, BibTeX, citation validation
+
+### Anthropic Official (4) — fonte: anthropics/skills
+- `pdf` → read, merge, split, OCR, forms, watermarks
+- `docx` → create/edit Word documents
+- `pptx` → create/edit PowerPoint presentations
+- `xlsx` → create/edit Excel spreadsheets
+- `skill-creator` → criar e otimizar novas skills
 
 ## Conventions
 
