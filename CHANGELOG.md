@@ -1,5 +1,30 @@
 # CHANGELOG
 
+## Sessao 15 — 2026-03-25
+
+### Auditoria Masterpiece — 2a Cross-Validation (Claude + ChatGPT)
+- Auditoria profunda: ~30 paginas lidas por Claude, ChatGPT auditou independente
+- ChatGPT errou de novo: indices sem Pilar (falso, ja corrigido sessao 13), Musicos/Pintores nao Galeria (ja eram)
+- ChatGPT acertou: Comportamento e Decision theory sao Mapa (nao Topico), Flammula e Mapa de projeto
+- 4 writes executados (read→write→verify cada):
+  - AI tools: Maturidade Semente → Broto
+  - Flammula of uncertainty: Tipo Topico → Mapa
+  - Comportamento: Tipo Topico → Mapa
+  - Decision theory: Tipo Topico → Mapa
+- Confianca pos-validacao: 0.84 (convergente Claude+ChatGPT)
+
+### Memory
+- user_profile atualizado: dev iniciante (nunca editou Python), clinica medica geral, concurso nao comecou questoes
+- user_preferences atualizado: cross-validation copy/paste, nao edita codigo
+- feedback_depth criado: odeia superficialidade, profundidade em tudo
+- project_masterpiece atualizado: estado real pos-auditoria
+
+### Prompt ChatGPT
+- Prompt cross-validation melhorado: instrucoes explicitas pra ler properties JSON, nao inferir de titulos
+
+---
+Coautoria: Lucas + opus + gpt54 | 2026-03-25
+
 ## Sessao 14 — 2026-03-24
 
 ### Auditoria Masterpiece + Cross-Validation
